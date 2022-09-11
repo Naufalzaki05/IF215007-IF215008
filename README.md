@@ -19,7 +19,7 @@
 - [Rifky Maulana](https://github.com/rifkymaulana6/IF215007-IF215008)
 - [Rifqi lutfan Padl]()
 - [Rijki](https://github.com/rizky-iki/IF215007-IF215008)
-- [Rio Jepriansah]()
+- [Rio Jepriansah](https://github.com/riojapri/IF21507-IF21508)
 - [Rizal Hadiyansah](https://github.com/azliR/IF215007-IF215008)
 - [Rizki Aryandi](https://github.com/rizkiaryandi/IF215007-IF215008.git)
 - [Salman Fauzan Fahri Aulia](https://github.com/salmanfazz/IF215007-IF215008)
