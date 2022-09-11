@@ -20,4 +20,4 @@ id|nama|umur
 1 | Eureka | 18
 
 ## UX Wireframe
-![judul](https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/old-blog-uploads/mapping-out-a-user-flow-by-hand.jpg)
+![KomikWIKI](https://user-images.githubusercontent.com/100655325/189518846-2b069c43-bfe6-4598-afca-ee0940389713.jpg)
