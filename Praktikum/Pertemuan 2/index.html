@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animanga-worlds</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="form-container">
+        <form id="form" action="http://localhost:3000/ani-manga method="post">
+            <input name="kategori" placeholder="Kategori" />
+            <input name="judul" placeholder="Judul" />
+            <input name="penulis" placeholder="Penulis" />
+            <input id="post-form-button" type="submit" value="POST via Form URL Encoded">
+            <input id="post-json-button" type="submit" value="POST via Type JSON">
+        </form>
+    </div>
+    <div id="table-container">
+        <p id="response-from-server"></p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>Kategori</td>
+                    <td>Judul</td>
+                    <td>Penulis</td>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <script>
+        function getElementValue(elementName) {
+            return document.getElementsByName(elementName)[0].value;
+        }
+        let postJSONButton = document.getElementById("post-json-button");
+        postJSONButton.onclick = function (e) {
+            e.preventDefault();
+
+            let kategori = getElementValue("kategori");
+            let judul = getElementValue("judul");
+            let penulis = getElementValue("penulis");
+
+            let urlPost = document.getElementById("form").getAttribute("action");
+            let dataJSON = {
+                kategori: kategori,
+                judul: judul,
+                penulis: penulis,
+            }
+            console.log(dataJSON);
+            let config = {
+                method: 'POST',
+                body: JSON.stringify(dataJSON),
+                headers: new Headers({
+                    'Content-Type': 'application/json; charset=UTF-8',
+                })
+            }
+
+            // fetch(urlPost, config).then(function (response) {
+            //     return response.json();
+            // }).then(function (responseJSON) {
+            //     let p = document.getElementById("response-from-server");
+            //     p.innerHTML = JSON.stringify(responseJSON);
+            // });
+
+            fetch("https://catfact.ninja/fact").then(function (response) {
+                return response.json();
+            }).then(function (responseJSON) {
+                let p = document.getElementById("response-from-server");
+                p.innerHTML = JSON.stringify(responseJSON);
+            });
+        }
+    </script>
+</body>
+
+</html>
