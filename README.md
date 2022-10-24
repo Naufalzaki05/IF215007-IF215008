@@ -24,3 +24,4 @@
 - [Rizki Aryandi](https://github.com/rizkiaryandi/IF215007-IF215008.git)
 - [Salman Fauzan Fahri Aulia](https://github.com/salmanfazz/IF215007-IF215008)
 - [Romi Jatmiko](https://github.com/romijatmiko/IF215008)
+- [Aji Nugraha](https://github.com/Ajinugraha14/IF215007) 
