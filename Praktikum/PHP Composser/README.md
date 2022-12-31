@@ -1,6 +1,6 @@
 ## Hello World Package for PHP Composer 
 
-lebih lanjut dari bisa [klik link disini](https://packagist.org/packages/ehime/hello-world)
+lebih lanjut bisa [klik link disini](https://packagist.org/packages/ehime/hello-world)
 ## Usage ##
 
 ```bash
