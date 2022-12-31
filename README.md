@@ -12,7 +12,7 @@
 - [Nurrohman](github.com/Nurrohman10/IF215007-IF215008)
 - [Raihan](https://github.com/Rhnnrsdq/IF215007-IF215008)
 - [Rafi Andamira](https://github.com/andamira16/IF215007-IF215008)
-- [Rama Bagadhara]()
+- [Rama Bagadhara](https://github.com/ramabhagadhara/IF215007-IF215008)
 - [Ramadhan Anugrah Hermawan](https://github.com/ramadhananugrahhermawan/IF215007-IF215008/tree/main/Praktikum/Pertemuan%201)
 - [Rayhan Tsaury](https://github.com/rayhanyeager/IF215007-IF215008)
 - [Ricky Muhammad Ridwan](https://github.com/ricky03knowhere/IF215007)
