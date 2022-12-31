@@ -127,7 +127,7 @@
             <td>Demo : <a href="https://github.com/Naufalzaki05/IF215007-IF215008/tree/main/Praktikum/Github%20project%20initialization">Github project initialization</td><td>1 :heavy_check_mark:</td>
         </tr>
         <tr>
-            <td>Demo : <a href="https://github.com/Naufalzaki05/IF215007-IF215008/tree/main/Praktikum/Postman%20Access>Hoppscotch / Postman access</td><td>1 :heavy_check_mark:</td>
+            <td>Demo : <a href="https://github.com/Naufalzaki05/IF215007-IF215008/tree/main/Praktikum/Postman%20Access">Hoppscotch / Postman access</td><td>1 :heavy_check_mark:</td>
         </tr>
         <tr>
             <td>Demo : <a href="https://github.com/Naufalzaki05/IF215007-IF215008/blob/main/Praktikum/PHP%20Composser/README.md">PHP & Composer installation & hello world</td><td>2 :heavy_check_mark:</td>
